@@ -1,0 +1,23 @@
+@use "../abstracts" as *;
+
+.socials {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+}
+
+.socials__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 0.45rem;
+  width: 2.9rem;
+  aspect-ratio: 1;
+  border: 1px solid clr(neutral, light);
+  border-radius: 50%;
+  @extend %transition;
+  &:hover {
+    color: clr(brand, bright);
+    border-color: clr(brand, bright);
+  }
+}

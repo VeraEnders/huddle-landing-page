@@ -1,0 +1,8 @@
+@use "../abstracts" as *;
+
+.bg {
+  background-color: clr(brand, dark);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+}

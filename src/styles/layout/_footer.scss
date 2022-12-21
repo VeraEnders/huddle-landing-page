@@ -1,0 +1,14 @@
+@use "../abstracts" as *;
+
+.footer {
+  padding-top: 1.8rem;
+}
+
+.attribution {
+  font-size: size(12);
+  opacity: 0.8;
+  a:hover {
+    color: clr(brand, bright);
+    @extend %transition;
+  }
+}

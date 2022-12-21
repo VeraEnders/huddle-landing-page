@@ -1,0 +1,25 @@
+@use "sass:map";
+@use "../abstracts" as *;
+
+html {
+  font-size: 10px;
+  min-height: 100vh;
+  font-family: $ff-text;
+}
+
+body {
+  font-size: size(17);
+  background-image: url("../assets/images/bg-mobile.svg");
+  color: clr(neutral, light);
+  text-align: center;
+}
+
+h1,
+button {
+  font-family: $ff-accent;
+}
+
+h1 {
+  font-size: size(24);
+  font-weight: 600;
+}
