@@ -1,8 +1,13 @@
 @use "../abstracts" as *;
 
 .bg {
+  background-image: url("../assets/images/bg-mobile.svg");
   background-color: clr(brand, dark);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: contain;
+  @include mq-large {
+    background-image: url("../assets/images/bg-desktop.svg");
+    background-position: left top;
+  }
 }

@@ -1,8 +1,9 @@
+@use "../abstracts" as *;
+
 .logo {
   cursor: pointer;
-  max-width: 13rem;
-}
-
-.logo__img {
-  width: 100%; 
+  width: 13rem;
+  @include mq-large {
+    width: 21.5rem;
+  }
 }

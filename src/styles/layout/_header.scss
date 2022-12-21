@@ -1,3 +1,8 @@
+@use "../abstracts" as *;
+
 .header {
   padding: 3.4rem 0;
+  @include mq-large {
+    padding: 5.2rem 0 6.4rem;
+  }
 }

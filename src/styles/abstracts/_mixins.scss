@@ -1,6 +1,7 @@
-@use "sass:map";
-@use "breakpoints" as *;
-
 @mixin mq-medium {
-  @media (min-width: get.map($breakpoints, medium)) { @content; }
+  @media screen and (min-width: 678px) { @content; }
+}
+
+@mixin mq-large {
+  @media screen and (min-width: 1000px) { @content; }
 }

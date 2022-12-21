@@ -1,15 +1,29 @@
+@use "../abstracts" as *;
+ 
 .main__heading {
   margin: 1.1rem 0;
+  @include mq-large {
+    margin: 4.5rem 0 2.2rem;
+  }
 }
 
 .main__img {
   padding: 2.4rem 0 4.8rem;
-  max-width: 69.6rem;
+  max-width: 71rem;
+  @include mq-large {
+    width: 71rem;
+    padding: 0;
+  }
 }
 
-.main__content {
+.main__desc {
   line-height: 2.4rem;
   letter-spacing: -0.02em;
+  @include mq-large {
+    line-height: 2.7rem;
+    letter-spacing: normal;
+    width: 98%;
+  }
 }
 
 .main__btn {

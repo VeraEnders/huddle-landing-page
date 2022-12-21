@@ -9,9 +9,12 @@ html {
 
 body {
   font-size: size(17);
-  background-image: url("../assets/images/bg-mobile.svg");
   color: clr(neutral, light);
   text-align: center;
+  @include mq-medium {
+    text-align: start;
+    font-size: size(18);
+  }
 }
 
 h1,
@@ -22,4 +25,7 @@ button {
 h1 {
   font-size: size(24);
   font-weight: 600;
+  @include mq-large {
+    font-size: size(40);
+  }
 }
