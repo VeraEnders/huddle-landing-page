@@ -1,4 +1,4 @@
-<h1 align="center"> Huddle Landing Page | <a href="https://www.frontendmentor.io">frontendmentor.io</a></h1>
+<h1 align="center"> Huddle Landing Page</h1>
 
 | Desktop | Mobile |
 | --- | --- |
@@ -8,7 +8,7 @@
   <h2><a href="https://veraenders.github.io/huddle-landing-page/">Live</a>
   <span> | </span> 
   <a href="https://github.com/VeraEnders/huddle-landing-page/">Code</a></h2>
-  <div>This is a solution to the <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0">Huddle landing page with a single introductory section</a>.</div>
+  <div>This is a solution to the <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0">Huddle landing page with a single introductory section</a> on FrontendMentor.</div>
 </div>
 <br>
 
@@ -31,15 +31,15 @@ Responsive landing page with single introductory section
 - Web Accessibility Principles
 
 ## Useful resources 
- A well structured  [Web Accessibility Checklist](https://www.a11yproject.com/checklist/)
+- A well structured  [Web Accessibility Checklist](https://www.a11yproject.com/checklist/)
 
-[W3C Accessibility Principles](https://www.w3.org/WAI/fundamentals/accessibility-principles/) introduces some of the web accessibility requirements.
+- [W3C Accessibility Principles](https://www.w3.org/WAI/fundamentals/accessibility-principles/) introduces some of the web accessibility requirements.
 
 ## Author
 
 GitHub - [VeraEnders](https://github.com/VeraEnders)
 
-Frontend Mentor - [@veraenders](https://www.frontendmentor.io/profile/veraenders)
+FrontendMentor - [@veraenders](https://www.frontendmentor.io/profile/veraenders)
 
 ## Acknowledgments
 
