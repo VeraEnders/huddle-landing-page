@@ -1,9 +1,11 @@
 @use "../abstracts" as *;
 
 .btn {
+  font-family: $ff-accent;
   cursor: pointer;
   max-width: 20rem;
   padding: 1.4rem 6.4rem;
+  margin-inline: auto;
   border-radius: 2.7em;
   font-size: size(18);
   background: clr(neutral, light);
@@ -12,5 +14,8 @@
   &:hover {
     background: clr(brand, normal);
     color: clr(neutral, light);
+  }
+  @include mq-large {
+    margin-inline: inherit;
   }
 }

@@ -1,6 +1,8 @@
 @use "../abstracts" as *;
 
 .wrapper {
+  max-width: 144rem;
+  margin: 0 auto;
   padding-inline: 3.4rem;
   @include mq-large {
     padding-inline: 7.2rem;

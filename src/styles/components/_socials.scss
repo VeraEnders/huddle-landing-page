@@ -3,7 +3,7 @@
 .socials {
   display: flex;
   justify-content: center;
-  @include mq-medium {
+  @include mq-small {
     justify-content: flex-end;
   }
 }
@@ -22,7 +22,7 @@
     color: clr(brand, bright);
     border-color: clr(brand, bright);
   }
-  @include mq-medium {
+  @include mq-small {
     width: 4rem;
     margin-inline: 0.85rem;
   }

@@ -11,21 +11,18 @@ body {
   font-size: size(17);
   color: clr(neutral, light);
   text-align: center;
-  @include mq-medium {
+  @include mq-small {
     text-align: start;
     font-size: size(18);
   }
 }
 
-h1,
-button {
-  font-family: $ff-accent;
-}
-
 h1 {
+  font-family: $ff-accent;
   font-size: size(24);
   font-weight: 600;
-  @include mq-large {
+  @extend %transition;
+  @include mq-medium {
     font-size: size(40);
   }
 }
